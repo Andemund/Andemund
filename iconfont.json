@@ -1,0 +1,72 @@
+{
+  "id": "2575932",
+  "name": "Andemund",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "141787",
+      "name": "mail",
+      "font_class": "mail",
+      "unicode": "e7b7",
+      "unicode_decimal": 59319
+    },
+    {
+      "icon_id": "14343615",
+      "name": "facebook",
+      "font_class": "facebook",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "973190",
+      "name": "weibo",
+      "font_class": "weibo",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "401192",
+      "name": "twitter",
+      "font_class": "twitter",
+      "unicode": "e89d",
+      "unicode_decimal": 59549
+    },
+    {
+      "icon_id": "1899143",
+      "name": "wechat",
+      "font_class": "wechat",
+      "unicode": "e759",
+      "unicode_decimal": 59225
+    },
+    {
+      "icon_id": "5634723",
+      "name": "instagram",
+      "font_class": "instagram",
+      "unicode": "f1d3",
+      "unicode_decimal": 61907
+    },
+    {
+      "icon_id": "20403089",
+      "name": "K歌",
+      "font_class": "wesing",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "21882159",
+      "name": "github",
+      "font_class": "github",
+      "unicode": "f1d4",
+      "unicode_decimal": 61908
+    },
+    {
+      "icon_id": "21250740",
+      "name": "猫头鹰",
+      "font_class": "owl",
+      "unicode": "e74f",
+      "unicode_decimal": 59215
+    }
+  ]
+}
