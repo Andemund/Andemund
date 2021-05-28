@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2575932 */
+  src: url('//at.alicdn.com/t/font_2575932_r6oaq3zkpks.woff2?t=1622118044827') format('woff2'),
+       url('//at.alicdn.com/t/font_2575932_r6oaq3zkpks.woff?t=1622118044827') format('woff'),
+       url('//at.alicdn.com/t/font_2575932_r6oaq3zkpks.ttf?t=1622118044827') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+  content: "\e600";
+}
+
+.icon-weibo:before {
+  content: "\e62d";
+}
+
+.icon-mail:before {
+  content: "\e615";
+}
+
+.icon-twitter:before {
+  content: "\e89d";
+}
+
+.icon-wechat:before {
+  content: "\e759";
+}
+
+.icon-instagram:before {
+  content: "\f1d3";
+}
+
+.icon-wesing:before {
+  content: "\e626";
+}
+
+.icon-github:before {
+  content: "\f1d4";
+}
+
+.icon-owl:before {
+  content: "\e74f";
+}
+.icon {
+	display: block;
+	width: 1.5em;
+	height: 1.5em;
+	margin: 0 auto;
+	fill: currentColor;
+	font-family: 'iconfont' !important;
+	font-size: inherit;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}

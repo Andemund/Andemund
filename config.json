@@ -1,0 +1,70 @@
+{
+	"head": {
+		"title": "Andemund",
+		"description": "Author:Andemund,Category:Personal Blog",
+		"favicon": "favicon.ico"
+	},
+	"intro": {
+		"title": "Andemund",
+		"subtitle": "CLB",
+		"enter": "enter",
+		"supportAuthor": true,
+		"background": true
+	},
+	"main": {
+		"name": "Andemund",
+		"signature": "Code & Input & Output",
+		"avatar": {
+			"link": "assets/Andemund.jpg",
+			"height": "100",
+			"width": "100"
+		},
+		"ul": {
+			"url-1": {
+				"href": "mailto:i@andemund.com",
+				"icon": "mail",
+				"text": "Email"
+			},
+			"url-2": {
+				"href": "",
+				"icon": "instagram",
+				"text": "Instagram"
+			},
+			"url-3": {
+				"href": "mailto:i@andemund.com",
+				"icon": "twitter",
+				"text": "Twitter"
+			},
+			"url-4": {
+				"href": "https://github.com/andemund",
+				"icon": "facebook",
+				"text": "Facebook"
+			},
+			"url-5": {
+				"href": "https://github.com/andemund",
+				"icon": "wechat",
+				"text": "Wechat"
+			},
+			"url-6": {
+				"href": "https://github.com/andemund",
+				"icon": "weibo",
+				"text": "Weibo"
+			},
+			"url-7": {
+				"href": "https://github.com/andemund",
+				"icon": "github",
+				"text": "Github"
+			},
+			"url-8": {
+				"href": "https://github.com/andemund",
+				"icon": "github",
+				"text": "Github"
+			},
+			"url-9": {
+				"href": "https://github.com/andemund",
+				"icon": "owl",
+				"text": "Owl"
+			}
+		}
+	}
+}
