@@ -11,9 +11,9 @@
 
 ## Introduction
 
-> `一个坏掉的番茄`  home page.
+> `Andemund`  home page.
 
-[Online browsing](http://tomotoes.com)
+[From Online browsing](http://tomotoes.com)
 
 Do you want to install such a cool homepage for your website?
 
@@ -31,7 +31,7 @@ Let's start now!
 ## Install
 
 ```sh
-git clone https://github.com/Tomotoes/HomePage.git
+git clone https://github.com/Andemund/HomePage.git
 cd HomePage
 npm install
 npm run dev
