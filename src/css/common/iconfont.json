@@ -6,6 +6,13 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "141787",
+      "name": "mail",
+      "font_class": "mail",
+      "unicode": "e7b7",
+      "unicode_decimal": 59319
+    },
+    {
       "icon_id": "14343615",
       "name": "facebook",
       "font_class": "facebook",
@@ -18,13 +25,6 @@
       "font_class": "weibo",
       "unicode": "e62d",
       "unicode_decimal": 58925
-    },
-    {
-      "icon_id": "2205951",
-      "name": "icon-mail",
-      "font_class": "mail",
-      "unicode": "e615",
-      "unicode_decimal": 58901
     },
     {
       "icon_id": "401192",
