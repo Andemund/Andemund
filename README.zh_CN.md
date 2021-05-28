@@ -1,9 +1,5 @@
-# Tomotoes-HomePage
+# Andemund-HomePage
 
-
-[![支付宝赞助按钮](https://camo.githubusercontent.com/f4874996db5ac421925db08778d800d76d36abbc/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2545362539342541462545342542422539382545352541452539442d25453525393025393154412545362538442539302545352538412541392d677265656e2e737667)](https://cdn.jsdelivr.net/gh/Tomotoes/images/blog/alipay.png)
-
-[![微信赞助按钮](https://camo.githubusercontent.com/26101aa838286ad0d45a6f71b25fdc6e14e7668c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2545352542452541452545342542462541312d25453525393025393154412545362538442539302545352538412541392d677265656e2e737667)](https://cdn.jsdelivr.net/gh/Tomotoes/images/blog/wechat.png)
 
 [English Version](<README.md>)
 
@@ -11,9 +7,11 @@
 
 ## 项目简介
 
+Frome Tomoto.comm
+
 > `一个坏掉的番茄` 的主页
 
-[在线浏览](http://tomotoes.com)
+[在线浏览](http://Andemund.com)
 
 嗯哼，你想为网站装上如此酷炫的主页吗?
 
@@ -31,7 +29,7 @@
 ## 安装步骤
 
 ```sh
-git clone https://github.com/Tomotoes/HomePage.git
+git clone https://github.com/Andemund/HomePage.git
 cd HomePage
 npm install
 npm run dev
@@ -73,7 +71,7 @@ npm run dev
 ```json
 {
 	"head": {
-		"title": "一个坏掉的番茄",
+		"title": "Andemund",
 		"description": "Author:SimonMa,Category:Personal Blog",
 		"favicon": "favicon.ico"
 	}
@@ -173,12 +171,9 @@ head
 
 
 
-## 赞助
-开发一个优秀的项目，离不开大量时间和精力的投入。
+## 来源
 
-如果此项目给你带来了帮助，欢迎赞助,`star`。
-
-谢谢！
+本项目从tomoto.com迁移，感谢番茄同学的无私与付出！
 
 
 
