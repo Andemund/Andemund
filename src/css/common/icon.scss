@@ -1,8 +1,8 @@
 @font-face {
   font-family: "iconfont"; /* Project id 2575932 */
-  src: url('//at.alicdn.com/t/font_2575932_r6oaq3zkpks.woff2?t=1622118044827') format('woff2'),
-       url('//at.alicdn.com/t/font_2575932_r6oaq3zkpks.woff?t=1622118044827') format('woff'),
-       url('//at.alicdn.com/t/font_2575932_r6oaq3zkpks.ttf?t=1622118044827') format('truetype');
+  src: url('//at.alicdn.com/t/font_2575932_iwutqafloe.woff2?t=1622199401231') format('woff2'),
+       url('//at.alicdn.com/t/font_2575932_iwutqafloe.woff?t=1622199401231') format('woff'),
+       url('//at.alicdn.com/t/font_2575932_iwutqafloe.ttf?t=1622199401231') format('truetype');
 }
 
 .iconfont {
@@ -13,16 +13,16 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-mail:before {
+  content: "\e7b7";
+}
+
 .icon-facebook:before {
   content: "\e600";
 }
 
 .icon-weibo:before {
   content: "\e62d";
-}
-
-.icon-mail:before {
-  content: "\e615";
 }
 
 .icon-twitter:before {
@@ -48,6 +48,7 @@
 .icon-owl:before {
   content: "\e74f";
 }
+
 .icon {
 	display: block;
 	width: 1.5em;
