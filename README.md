@@ -169,13 +169,8 @@ If your previous `username. github.io` repo already has content, you can create 
 
 
 
-## Sponsor
-I spent a lot of time and energy to develop this project.
-
-If this project has brought you help, welcome to sponsor, `star`.
-
-Thank you!
-
+## Thanks
+For tomoto.com copy.
 
 
 ## License
