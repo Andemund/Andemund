@@ -26,7 +26,7 @@ Let's start now!
 ## Install
 
 ```sh
-git clone https://github.com/Andemund/HomePage.git
+git clone https://github.com/Andemund/Andemund.git
 cd HomePage
 npm install
 npm run dev
