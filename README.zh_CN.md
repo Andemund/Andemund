@@ -7,15 +7,13 @@
 
 ## 项目简介
 
-Frome Tomoto.comm
+项目源码来自Tomotos.comm
 
-> `一个坏掉的番茄` 的主页
+> `Andemunds` 的主页
 
 [在线浏览](http://Andemund.com)
 
-嗯哼，你想为网站装上如此酷炫的主页吗?
 
-下面就让我们开始吧！
 
 
 
@@ -173,7 +171,7 @@ head
 
 ## 来源
 
-本项目从tomoto.com迁移，感谢番茄同学的无私与付出！
+本项目从tomotos.com迁移，感谢番茄同学的无私与付出！
 
 
 
