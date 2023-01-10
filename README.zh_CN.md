@@ -7,7 +7,7 @@
 
 ## 项目简介
 
-项目源码来自Tomotos.comm
+项目源码来自Tomotos.com
 
 > `Andemunds` 的主页
 
