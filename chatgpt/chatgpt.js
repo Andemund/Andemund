@@ -27,4 +27,13 @@ sendButton.addEventListener('click', () => {
 });
 
 function appendUserMessage(message) {
-    const messageElement = chatBox.querySelector('.user
+    const messageElement = chatBox.querySelector('.user-message');
+messageElement.querySelector('.message-content p').textContent = message;
+}
+
+function appendBotMessage(message) {
+const messageElement = chatBox.querySelector('.chat-message').cloneNode(true);
+messageElement.querySelector('.message-header p').textContent = 'Bot:';
+messageElement.querySelector('.message-content p').textContent = message;
+chatBox.appendChild(messageElement);
+}
