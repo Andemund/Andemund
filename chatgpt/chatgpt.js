@@ -1,39 +1,33 @@
-const OPENAI_API_KEY = 'your_api_key_here';
-const chatContainer = document.querySelector('.chat-container');
-const chatBox = chatContainer.querySelector('.chat-box');
-const inputBox = chatContainer.querySelector('input');
-const sendButton = chatContainer.querySelector('button');
+const apiEndpoint = 'http://your_centos_ip:5000/chat';
+const apiKey = 'your_openai_api_key';
 
-const openai = new OpenAI(OPENAI_API_KEY);
+const chatContainer = document.querySelector('#chat-container');
+const chatOutput = document.querySelector('#chat-output');
+const userInput = document.querySelector('#user-input');
+const sendBtn = document.querySelector('#send-btn');
 
-sendButton.addEventListener('click', () => {
-    const userMessage = inputBox.value;
-    if (userMessage === '') return;
-    appendUserMessage(userMessage);
-    inputBox.value = '';
-
-    openai.complete({
-        engine: 'davinci',
-        prompt: `User: ${userMessage}\nBot:`,
-        maxTokens: 150,
-        n: 1,
-        stop: '\n',
-    }).then(result => {
-        const botMessage = result.data.choices[0].text.trim();
-        appendBotMessage(botMessage);
-    }).catch(error => {
-        console.error('Error:', error);
-    });
+sendBtn.addEventListener('click', async () => {
+    const userMessage = userInput.value.trim();
+    if (userMessage.length > 0) {
+        appendMessage('user', userMessage);
+        userInput.value = '';
+        try {
+            const response = await axios.post(apiEndpoint, {
+                message: userMessage,
+                api_key: apiKey
+            });
+            const botMessage = response.data.message;
+            appendMessage('bot', botMessage);
+        } catch (error) {
+            console.log(error);
+        }
+    }
 });
 
-function appendUserMessage(message) {
-    const messageElement = chatBox.querySelector('.user-message');
-messageElement.querySelector('.message-content p').textContent = message;
-}
-
-function appendBotMessage(message) {
-const messageElement = chatBox.querySelector('.chat-message').cloneNode(true);
-messageElement.querySelector('.message-header p').textContent = 'Bot:';
-messageElement.querySelector('.message-content p').textContent = message;
-chatBox.appendChild(messageElement);
+function appendMessage(sender, message) {
+    const messageElement = document.createElement('div');
+    messageElement.classList.add('message');
+    messageElement.classList.add(sender);
+    messageElement.textContent = message;
+    chatOutput.appendChild(messageElement);
 }

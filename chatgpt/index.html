@@ -1,39 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>ChatGPT Example</title>
-    <link rel="stylesheet" href="chatgpt.css">
+    <title>ChatGPT Demo</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </head>
 <body>
-    <div class="chat-container">
-        <div class="chat-header">
-            <h3>ChatGPT Example</h3>
-        </div>
-        <div class="chat-box">
-            <div class="chat-message">
-                <div class="message-header">
-                    <p>Bot:</p>
-                </div>
-                <div class="message-content">
-                    <p>Hello! How can I help you today?</p>
-                </div>
-            </div>
-            <div class="chat-message user-message">
-                <div class="message-header">
-                    <p>You:</p>
-                </div>
-                <div class="message-content">
-                    <p></p>
-                </div>
-            </div>
-        </div>
-        <div class="chat-input">
-            <input type="text" placeholder="Type your message here...">
-            <button>Send</button>
+    <div id="chat-container">
+        <div id="chat-output"></div>
+        <div id="chat-input">
+            <input type="text" id="user-input" placeholder="Enter your message...">
+            <button id="send-btn">Send</button>
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/@openai/api@0.4.4"></script>
-    <script src="chatgpt.js"></script>
+
+    <script>
+        // 在这里编写JavaScript代码，后面会提供完整代码
+    </script>
 </body>
 </html>
