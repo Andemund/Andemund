@@ -3,7 +3,19 @@
   src: url('//at.alicdn.com/t/font_2575932_iwutqafloe.woff2?t=1622199401231') format('woff2'),
        url('//at.alicdn.com/t/font_2575932_iwutqafloe.woff?t=1622199401231') format('woff'),
        url('//at.alicdn.com/t/font_2575932_iwutqafloe.ttf?t=1622199401231') format('truetype');
+	 url('//at.alicdn.com/t/font_2575932_iwutqafloe.css') format('truetype');
 }
+
+/* 在线链接服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
+@font-face {
+  font-family: 'iconfont';  /* Project id 2575932 */
+  src: url('//at.alicdn.com/t/font_2575932_iwutqafloe.woff2?t=1622199401231') format('woff2'),
+       url('//at.alicdn.com/t/font_2575932_iwutqafloe.woff?t=1622199401231') format('woff'),
+       url('//at.alicdn.com/t/font_2575932_iwutqafloe.ttf?t=1622199401231') format('truetype');
+}
+
+
+//at.alicdn.com/t/font_2575932_iwutqafloe.css
 
 .iconfont {
   font-family: "iconfont" !important;
