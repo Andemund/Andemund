@@ -49,3 +49,6 @@
   content: "\e74f";
 }
 
+.icon-steam:before {
+  content: "\e722";
+}
