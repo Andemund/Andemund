@@ -1,8 +1,9 @@
 @font-face {
   font-family: "iconfont"; /* Project id 2575932 */
-  src: url('iconfont.woff2?t=1622199404413') format('woff2'),
-       url('iconfont.woff?t=1622199404413') format('woff'),
-       url('iconfont.ttf?t=1622199404413') format('truetype');
+  src: url('iconfont.woff2?t=1718762110710') format('woff2'),
+       url('iconfont.woff?t=1718762110710') format('woff'),
+       url('iconfont.ttf?t=1718762110710') format('truetype'),
+       url('iconfont.svg?t=1718762110710#iconfont') format('svg');
 }
 
 .iconfont {
@@ -11,6 +12,10 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-steam:before {
+  content: "\e722";
 }
 
 .icon-mail:before {
@@ -49,6 +54,3 @@
   content: "\e74f";
 }
 
-.icon-steam:before {
-  content: "\e722";
-}
